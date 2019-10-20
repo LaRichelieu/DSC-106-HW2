@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const options = {
+    Highcharts.chart('overallchart', {
         chart: {
             type: 'line'
         },
@@ -19,14 +19,5 @@ document.addEventListener('DOMContentLoaded', () => {
             align: 'right',
             verticalAlign: 'middle'
         },
-    };
-    fetch('monthly_sales.csv').then(res => {
-        return res.text();
-    }).then(csv => {
-        options.data = {
-            csv
-        };
-
-        Highcharts.chart('overallchart', options);
-    })
+    });
 });
