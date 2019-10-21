@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
 
         title: {
-            text: 'Average Sales on Different Day of the Week'
+            text: 'Average Sales on Different Days of the Week'
         },
 
         xAxis: {
