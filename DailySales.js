@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
 
         series: [{
-            name: 'Average Sales',
+            name: 'Average Total Sales',
             data: [303163.75, 300023.25, 303959.5, 303729.75,
             310587, 294333.4, 296574.4]
         }]
